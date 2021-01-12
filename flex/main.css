@@ -1,0 +1,43 @@
+body{
+  background-color: #f6f6f6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-box{
+  height: 80%;
+  width: 80%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.green-box{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.pink-box > div:nth-child(1) {
+  background-color: grey;
+  flex: 5;
+}
+
+.pink-box > div:nth-child(2){
+  flex: 4;
+}
+
+.pink-box > div:nth-child(3){
+  background-color: dodgerblue;
+  flex: 1;
+}
+
+.pink-box > div:nth-child(4){
+  flex: 3;
+}
